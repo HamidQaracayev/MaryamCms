@@ -1,0 +1,87 @@
+﻿@using CMS.ViewModels
+@model UserViewModel
+
+@{
+    var counter = 0;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="~/cssUser/style.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- TOP NAVIGATION -->
+        <nav class="navbar">
+            <img src="~/cssUser/img/logo-copy.png" alt="Logo" class="logo" />
+            <div class="search-bar">
+                <input placeholder="search system" class="search-input" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="nav__item">
+                <a class="nav__link nav__link--btn btn--show-modal log-out" href="#">
+                    My account<i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+        </nav>
+        <main>
+            <section class="sectn-1">
+                <div class="cards">
+                    <div class="card-left">
+                        <div class="card-left">
+                            <div class="card"><a asp-controller="Home" asp-action="User" class="text"><i class="fa-solid fa-user"></i>users</a></div>
+                            <div class="card"><a asp-controller="Home" asp-action="Content" class="text"><i class="fa-solid fa-folder-closed"></i>content</a></div>
+                            <div class="card"><a asp-controller="Home" asp-action="Category" class="text"><i class="fa-solid fa-list"></i>category</a></div>
+                            <!-- <div class="card"><p class="text"><i class="fa-regular fa-comment"></i>comment</p></div> -->
+                        </div>
+                    </div>
+                    <div class="cards-border"></div>
+                    <div class="card-right">
+                        <div class="user-table">
+                            <div class="search-bar">
+                                <input placeholder="search user" class="search-input" />
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <ul class="users">
+                                @foreach (var item in Model.Users)
+                                {
+                                    counter++;
+                                    
+                                <li class="user-name">
+                                    @counter<i class="fa-solid fa-user"></i>@item.FullName
+                                </li>
+                                }
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+            Open your bank account <br />
+            in just <span class="highlight">5 minutes</span>
+        </h2>
+        <form class="modal__form">
+            <label>First Name</label>
+            <input type="text" />
+            <label>Last Name</label>
+            <input type="text" />
+            <label>Email Address</label>
+            <input type="email" />
+            <button class="btn">Next step &rarr;</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="~/cssUser/script.js"></script>
+</body>
+</html>

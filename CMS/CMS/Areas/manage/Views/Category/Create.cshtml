@@ -1,0 +1,31 @@
+﻿@model Category
+
+<style>
+    .form-container {
+        max-width: 800px;
+        margin-bottom: 70px;
+        padding: 50px;
+        border-left: 7px solid #435d7d !important;
+        border-radius: 3px;
+    }
+
+    .btn-info, .btn-primary {
+        width: 150px;
+    }
+</style>
+<div class="container shadow form-container">
+    <div class="mb-3">
+        <h1>Create a Category</h1>
+    </div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="" class="form-label">Name</label>
+            <input asp-for="Name" type="text" class="form-control">
+            <span asp-validation-for="Name" style="color:red"></span>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary w-25">Submit</button>
+        <a class="btn btn-info" asp-action="Index" asp-controller="Category">Back To Home</a>
+    </form>
+</div>
