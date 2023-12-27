@@ -1,0 +1,56 @@
+﻿@model User
+<style>
+    .form-container {
+        max-width: 800px;
+        margin-bottom: 70px;
+        padding: 50px;
+        border-left: 7px solid #435d7d !important;
+        border-radius: 3px;
+    }
+
+    .btn-info, .btn-primary {
+        width: 150px;
+    }
+</style>
+<div class="container shadow form-container">
+    <div class="mb-3">
+        <h1>Update a User</h1>
+    </div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="" class="form-label">FullName</label>
+            <input asp-for="FullName" type="text" class="form-control">
+            <span asp-validation-for="FullName" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Password</label>
+            <input asp-for="Password" type="text" class="form-control">
+            <span asp-validation-for="Password" style="color:red"></span>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">UserCode</label>
+            <input asp-for="UserCode" type="text" class="form-control">
+            <span asp-validation-for="UserCode" style="color:red"></span>
+        </div>
+
+        <div class="row col-12" style="padding: 0px;">
+
+
+
+        </div>
+        <div class="row col-12" style="padding:0px;">
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <label asp-for="CategoryId">Categories</label>
+                <select asp-for="CategoryId" class="form-select" aria-label="Default select example" style="margin-left:10px">
+                    @foreach (var item in ViewBag.Categories)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="CategoryId" style="color:red"></span>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary w-25">Submit</button>
+        <a class="btn btn-info" asp-action="Index" asp-controller="User">Back To Home</a>
+    </form>
+</div>

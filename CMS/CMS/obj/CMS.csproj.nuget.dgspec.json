@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\Code Academy\\CMS\\CMS\\CMS.csproj": {}
+    "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\SerxanTask\\MaryamCms\\CMS\\CMS\\CMS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\Code Academy\\CMS\\CMS\\CMS.csproj": {
+    "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\SerxanTask\\MaryamCms\\CMS\\CMS\\CMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\Code Academy\\CMS\\CMS\\CMS.csproj",
+        "projectUniqueName": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\SerxanTask\\MaryamCms\\CMS\\CMS\\CMS.csproj",
         "projectName": "CMS",
-        "projectPath": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\Code Academy\\CMS\\CMS\\CMS.csproj",
+        "projectPath": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\SerxanTask\\MaryamCms\\CMS\\CMS\\CMS.csproj",
         "packagesPath": "C:\\Users\\Hamid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\Code Academy\\CMS\\CMS\\obj\\",
+        "outputPath": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\SerxanTask\\MaryamCms\\CMS\\CMS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hamid\\AppData\\Roaming\\NuGet\\NuGet.Config",

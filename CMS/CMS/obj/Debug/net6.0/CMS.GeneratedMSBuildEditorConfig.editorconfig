@@ -9,75 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CMS
 build_property.RootNamespace = CMS
-build_property.ProjectDir = C:\Users\Hamid\Desktop\Microsoft Edge\Code Academy\CMS\CMS\
+build_property.ProjectDir = C:\Users\Hamid\Desktop\Microsoft Edge\SerxanTask\MaryamCms\CMS\CMS\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Hamid\Desktop\Microsoft Edge\Code Academy\CMS\CMS
+build_property.MSBuildProjectDirectory = C:\Users\Hamid\Desktop\Microsoft Edge\SerxanTask\MaryamCms\CMS\CMS
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/Category/Create.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/Category/Delete.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXENhdGVnb3J5XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/Category/Index.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/Shared/_Layout.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXENhdGVnb3J5XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/User/Create.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXFVzZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/User/Delete.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXFVzZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/User/Index.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXFVzZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/_ViewImports.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXFVzZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Areas/manage/Views/_ViewStart.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Areas/manage/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbWFuYWdlXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Views/Home/Category.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Views/Home/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Views/Home/Content.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Views/Home/Content.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250ZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Views/Home/Index.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Views/Home/User.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Views/Home/User.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Views/_ViewImports.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Views/_ViewStart.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hamid/Desktop/Microsoft Edge/Code Academy/CMS/CMS/Views/Shared/_Layout.cshtml]
+[C:/Users/Hamid/Desktop/Microsoft Edge/SerxanTask/MaryamCms/CMS/CMS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-71ficycxyo

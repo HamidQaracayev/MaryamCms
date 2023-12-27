@@ -31,9 +31,34 @@ namespace CMS.Areas.manage.Controllers
             if(_context.categories.Any(x=> x.Name == category.Name)) 
             {
                 ModelState.AddModelError("Name", "There is Category with same name!");
+                return View();
             }
             _context.categories.Add(category);
             _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Update(int id)
+        {
+            var category = _context.categories.FirstOrDefault(x=> x.Id == id);
+            return View(category);
+        }
+        [HttpPost]
+        public IActionResult Update(Category category)
+        {
+            var existCategory =  _context.categories.FirstOrDefault(x => x.Id == category.Id);
+
+            if (existCategory == null) return NotFound();
+
+            if (_context.categories.Any(x => x.Name.ToLower() == category.Name.ToLower()/* && existCategory.Id != category.Id*/))
+            {
+                ModelState.AddModelError("Name", "Category has already created!");
+                return View();
+            }
+
+            existCategory.Name = category.Name;
+
+             _context.SaveChanges();
             return RedirectToAction("Index");
         }
 

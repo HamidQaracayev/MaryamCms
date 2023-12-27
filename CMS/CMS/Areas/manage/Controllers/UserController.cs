@@ -16,7 +16,7 @@ namespace CMS.Areas.manage.Controllers
         public IActionResult Index()
         {
             ViewBag.Categories = _context.categories.ToList();
-            ViewBag.Content = _context.content.ToList();
+            
             List<User> users = _context.users.ToList();
             return View(users);
         }
@@ -24,7 +24,7 @@ namespace CMS.Areas.manage.Controllers
         public IActionResult Create()
         {
             ViewBag.Categories = _context.categories.ToList();
-            ViewBag.Content = _context.content.ToList();
+            
 
             return View();
         }
@@ -33,17 +33,49 @@ namespace CMS.Areas.manage.Controllers
         public IActionResult Create(User user)
         {
             ViewBag.Categories = _context.categories.ToList();
-            ViewBag.Content = _context.content.ToList();
+
             //if (!ModelState.IsValid) { return View(); }
 
-            if(!_context.categories.Any(x => x.Id == user.CategoryId)) 
+            if (!_context.categories.Any(x => x.Id == user.CategoryId)) 
             {
                 ModelState.AddModelError("CategoryId", "Category Not Found");
+                return View();
+            }
+            if(user.FullName.Length < 4)
+            {
+                ModelState.AddModelError("FullName", "Fullname minimum lentgh must be 4");
                 return View();
             }
             _context.users.Add(user);
             _context.SaveChanges();
             return RedirectToAction("Index");
+        }
+        public IActionResult Update(int id)
+        {
+            ViewBag.Categories = _context.categories.ToList();
+            var User = _context.users.FirstOrDefault(x => x.Id == id);
+            if (User == null) { return NotFound(); }
+
+            return View(User);
+
+        }
+        [HttpPost]
+        public IActionResult Update(User user)
+        {
+            ViewBag.Categories = _context.categories.ToList();
+            var existUser = _context.users.FirstOrDefault(x => x.Id == user.Id);
+            if(existUser == null) { return NotFound(); }
+            if(!_context.categories.Any(x=> x.Id == user.CategoryId))
+            {
+                return NotFound();
+            }
+
+            existUser.FullName = user.FullName;
+            existUser.Password = user.Password;
+            existUser.UserCode = user.UserCode;
+            existUser.CategoryId = user.CategoryId;
+            _context.SaveChanges(); return RedirectToAction("Index");
+
         }
         public IActionResult Delete(int id)
         {

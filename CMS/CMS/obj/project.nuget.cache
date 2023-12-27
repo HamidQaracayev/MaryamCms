@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mhm9hy/yEo+xpTZu2cv1vjxvQljJItH4j0Ao0+pEKQDqNuHPTY462o9WyE5iZkk2iyH26TIlWECWQ7fbkCgAFA==",
+  "dgSpecHash": "0Yz7E+Y7eS7K8ltixuNzcjkEc6CLsrf8eAHiZYig0Yy+Pu5onuOiTu4SXTC0jnx/b1sZb3xuPyOzgrBckFe2Eg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\Code Academy\\CMS\\CMS\\CMS.csproj",
+  "projectFilePath": "C:\\Users\\Hamid\\Desktop\\Microsoft Edge\\SerxanTask\\MaryamCms\\CMS\\CMS\\CMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hamid\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Hamid\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
